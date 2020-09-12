@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Caslon';
+    src: url('Caslon-Italic.woff2') format('woff2'),
+        url('Caslon-Italic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Adobe Caslon Pro';
+    src: url('ACaslonPro-Regular.woff2') format('woff2'),
+        url('ACaslonPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Tobias-thin';
+    src: url('Tobias-thin.woff2') format('woff2'),
+        url('Tobias-thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tobias-regular';
+    src: url('Tobias-regular.woff2') format('woff2'),
+        url('Tobias-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tobias-regular-italic';
+    src: url('Tobias-regular-italic.woff2') format('woff2'),
+        url('Tobias-regular-italic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tobias-light';
+    src: url('Tobias-light.woff2') format('woff2'),
+        url('Tobias-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tobias-light-italic';
+    src: url('Tobias-lightitalic.woff2') format('woff2'),
+        url('Tobias-lightitalic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Founders Grotesk Mono';
+    src: url('FoundersGroteskMono-Light.woff2') format('woff2'),
+        url('FoundersGroteskMono-Light.woff') format('woff'),
+        url('FoundersGroteskMono-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

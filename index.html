@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Please, Mr. Officer.</title>
+        <meta name="description" content="Please, Mr. Officer.">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="assets/fonts/stylesheet.css">
+        
+  
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--  SMOOTH INTRO SCROLL  --> 
+        
+        <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+
+              // Store hash
+              var hash = this.hash;
+
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 900, function(){
+
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+        
+    
+        
+    </head>
+    <body>        
+        
+                
+            <a href="#start">
+                <div class="main-container-title">
+                    <div class="container-title">
+                        <h1>Please, Mr. Officer</h1>
+                        <h3 style="margin-top: -40px;">A modern day tragedy</h3>
+
+                    </div>
+                </div>
+            </a>
+                
+    
+
+                <div class="make-me-sticky" id="navbar" style="z-index: 1; position: fixed; width: 100%;">
+                    
+                    <h2 style="text-align: left; margin: 0; padding-right: 20px; text-transform: uppercase" >
+
+<span class="current_div" style="text-transform: uppercase">Scene I</span>
+                        
+                        
+                    <div class="buttonsContainer" onclick="openNav()" id="show" style="display: inline">
+                      <span id="link" class="disableBodyScroll" ontouchstart="" style="font-family: Founders Grotesk Mono;float: right; text-transform: uppercase; text-decoration: ">
+                        Show characters
+                      </span>
+                    </div>
+
+                    <div class="buttonsContainer" onclick="closeNav()" id="hide" style="display: none">
+                      <span class="enableBodyScroll" ontouchstart="" id="link" style="z-index: 1; font-family: Founders Grotesk Mono;float: right; text-transform: uppercase" onclick="closeNav()">
+                          Hide characters
+                      </span>
+                    </div>   
+                    </h2>
+                </div>
+        
+            <div id="start"></div>
+        
+        <main>
+
+    <div class="one" data-section="Scene I">
+            <div class="block-intro">
+                <h3>Scene I – Kueng, Lane, Store employees</h3>
+                <p class="intro">
+                    On a Monday evening in Minneapolis, a Cup Foods employee calls the police to report that a man, George Perry Floyd, has used a counterfeit $20 bill at the store. Moments after arriving at the scene, the officers start looking for the suspect.
+                </p>
+            </div>
+            
+            <div class="block">
+                <h3>Store employee 1, <span class="italic">to officers</span></h3>
+                <p class="disours">
+                    Before they drive off, he's parked right here, it’s a fake bill from the Gentlemen. Sorry.
+                </p>
+            </div>
+                
+            <div class="block">
+                <h3>Kueng</h3> 
+                <p class="disours">
+                    The driver in there?
+                </p> 
+            </div>
+                
+                
+            <div class="block">
+                <h3>Lane</h3> 
+                <p class="disours">
+                    The blue Benz?
+                </p> 
+            </div>
+                
+                
+            <div class="block">
+                <h3>Store employee 1</h3> 
+                <p class="disours">
+                    Which one?
+                </p> 
+            </div>
+                
+            <div class="block">
+                <h3>Store employee 2</h3> 
+                <p class="disours">
+                    That blue one over there.
+                </p> 
+            </div>
+                
+            <div class="block">
+                <h3>Kueng</h3> 
+                <p class="disours">
+                    Which one?
+                </p> 
+            </div>
+            
+            <div class="block">
+                <h3>Lane</h3> 
+                <p class="disours">
+                    Yup-yup. Just head back in. They're moving around a lot.
+                </p> 
+            </div>
+        </div>
+                
+            
+    <div class="two" data-section="Scene II">
+            <div class="block-intro">
+                <h3>Scene II – Kueng, Lane, Floyd</h3>
+                <p class="intro">
+                    Lane and Kueng approach the car in which George Floyd is sitting.
+                </p>
+            </div>            
+    
+            <div class="block">
+                <h3>Lane, <span class="italic">to Floyd</span></h3>
+                <p class="disours">
+                    Let me see your hands.
+                </p>
+            </div>  
+            
+            <div class="block">
+                <h3>Lane</h3> 
+                <p class="disours">
+                    Stay in the car, let me see your other hand.
+                </p> 
+            </div>
+            
+            <div class="block">
+                <h3>George Floyd</h3> 
+                <p class="disours">
+                    I'm sorry, I'm sorry!
+                </p> 
+            </div>
+            
+            <div class="block">
+                <h3>Lane</h3> 
+                <p class="disours">
+                    Let me see your other hand!
+                </p> 
+            </div>
+            
+            <div class="block">
+                <h3>George Floyd</h3> 
+                <p class="disours">
+                    Please, Mr. Officer.
+                </p> 
+            </div>
+        </div>
+            
+            
+            
+            
+        
+    <div class="modal">
+      <div class="scrollTarget" style="text-align: center">
+                <div style="padding: 30px">
+                    <h4>George Floyd</h4>
+                     <span class="character-title">African-American security guard at El Nuevo Rodeo nightclub</span>
+
+                    <h4>Derek Chauvin</h4>
+                    <span class="character-title">Police Officer and off-duty Security Guard at El Nuevo Rodeo nightclub</span>
+
+                    <h4>J Alexander Kueng</h4>
+                    <span class="character-title">Police Officer</span>
+
+                    <h4>Thomas Lane</h4>
+                    <span class="character-title">Police Officer</span>
+
+                    <h4>Tou Thao</h4>
+                    <span class="character-title">Police Officer</span>
+
+                    <h4>Shawanda Renee Hill</h4>
+                    <span class="character-title">George Floyd’s ex-partner</span>
+
+                    <h4>Store Employees</h4>
+                    <span class="character-title">at Cup Foods</span>
+
+                    <h4 style="margin-bottom: 100px">Bystanders</h4>
+                </div>
+      </div>
+    </div>
+            
+    <div class="two" data-section="Section two"></div>
+    <div class="yellow" data-section="Section Yellow"></div>
+    <div class="green" data-section="Section Green"></div>
+            
+
+    
+            <!--  HIDE/SHOW CHARACTERS MENU --> 
+            
+        <script>
+            function openNav() {
+
+              document.getElementById("hide").style.display = "inline";
+              document.getElementById("show").style.display = "none";
+              modalElement.scrollTop = 0;
+            }
+
+            function closeNav() {
+              document.getElementById("hide").style.display = "none";
+              document.getElementById("show").style.display = "inline";
+            }
+        </script>
+        
+        <script src="assets/js/bundle.js"></script>
+            
+            
+            <!--  HIDE/SHOW NAV BASED ON SCROLL POSITION -->
+            
+        <script>    
+            (function ($) {
+              $(document).ready(function(){
+
+                // hide .navbar first
+                $(".make-me-sticky").hide();
+
+                // fade in .navbar
+                $(function () {
+                    $(window).scroll(function () {
+                        // set distance user needs to scroll before we fadeIn navbar
+                        if ($(this).scrollTop() > window.innerHeight) {
+                            $('.make-me-sticky').fadeIn();
+                        } else {
+                            $('.make-me-sticky').fadeOut();
+                        }
+                    });
+
+
+                });
+
+            });
+              }(jQuery));
+            </script>
+            
+            
+            <!--  CURRENT SECTION NAME IN TOPBAR --> 
+            
+        <script>
+             $.fn.isOnScreen = function () {
+                var win = $(window);
+                var viewport = {
+                    top: win.scrollTop(),
+                    left: win.scrollLeft()
+                };
+                viewport.right = viewport.left + win.width();
+                viewport.bottom = viewport.top + win.height();
+                var bounds = this.offset();
+                bounds.right = bounds.left + this.outerWidth();
+                bounds.bottom = bounds.top + this.outerHeight();
+                return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+            };
+
+            var currentDiv = $('.current_div');
+
+            $( window ).scroll(function() {
+              var $div = $(".current_div").offset().top + 100;
+              if($div >= $(".one").offset().top)
+                $(".current_div").text("Scene I");
+              if($div >= $(".two").offset().top)
+                $(".current_div").text("Scene II");
+              if($div >= $(".yellow").offset().top)
+                $(".current_div").text("Section Yellow");
+              if($div >= $(".green").offset().top)
+                $(".current_div").text("Section Green");
+            });
+        </script>
+        </main>
+    </body>
+</html>

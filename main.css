@@ -1,0 +1,144 @@
+html {
+    background: #FBFAF6;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #FBFAF6;
+    /* box-shadow: 0 0 2px black; */ 
+    font-family: 'Tobias-thin';
+    margin: auto;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 1;
+    text-align: center;
+}
+
+h3, p {
+    font-size: 28px;
+}
+h1 {
+    font-size: 120px;
+    font-family: 'Tobias-thin';
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Founders Grotesk Mono";
+}
+
+h3 {
+    font-family: 'Tobias-light';
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 50px;
+    font-family: "tobias-thin";
+    text-transform: uppercase;
+    margin: 40px 0 12px 0
+}
+
+.character-title {
+    font-size: 22px;
+    font-family: "Tobias-light-italic";
+}
+
+p {
+    text-align: center;
+    margin: 0;
+}
+
+.intro {
+    max-width: 926px;
+    margin: auto;
+    font-family: "Tobias-light-italic";
+    line-height: 1.4em;
+}
+
+.disours {
+    font-family: "Adobe Caslon Pro";
+    font-size: 62px;
+}
+
+a {
+    color: #0083e8;
+}
+
+samp {
+    display: none;
+}
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
+
+.container-title {
+    margin: 0;
+    position: absolute;
+    width: 1000px;
+    max-width: 95%;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.main-container-title {
+    background: #E6E5E0;
+    height: 103vh;
+}
+
+.main-container-title:hover {
+    cursor: url(assets/imgs/cursor-arrow-down.png), auto;
+}
+
+
+span {
+    text-transform: none;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1164px;
+    padding: 0 2em 0 2em;
+}
+
+.block-intro {
+    margin: 150px 0;
+}
+
+.block{
+    margin: 60px 0;
+}
+
+.italic {
+    font-family: "Tobias-light-italic";
+}
+
+.make-me-sticky {
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    background: #E6E5E0;
+    padding: 10px;
+}
+
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: olive;
+  }
+}
